@@ -1,0 +1,5 @@
+
+# Elastic Beanstalk Files
+elasticfolder/.elasticbeanstalk/*
+!elasticfolder/.elasticbeanstalk/*.cfg.yml
+!elasticfolder/.elasticbeanstalk/*.global.yml
