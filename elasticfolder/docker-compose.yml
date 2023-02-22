@@ -1,6 +1,6 @@
 version: "3"
 services:
   web:
-    image: ghcr.io/angelocho/hello-2048/nginx-public-html:v1
+    image: ghcr.io/angelocho/hello-spring/amazoncorrettospring:latest
     ports:
-     - "80:80"
+     - "8080:8080"
