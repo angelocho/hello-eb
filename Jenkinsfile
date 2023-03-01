@@ -9,7 +9,7 @@ pipeline {
             steps {
                withAWS(credentials:'clave-aws') {
                    dir("elasticfolder"){
-                     sh 'eb create prueba-spring'
+                     sh 'eb create dev-env'
                     }
                }
             }
